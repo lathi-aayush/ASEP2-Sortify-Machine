@@ -6,7 +6,8 @@ print("Current Working Directory:", os.getcwd())  # To confirm path
 
 COM_PORT = 'COM6'  # Your Arduino COM port
 BAUD_RATE = 9600   # Must match Arduino sketch
-FILE_PATH = r"C:\AAYUSH\5_College\2024_25 FY CE D\FY sem 2\ASEP 2\Model making\Arduino\arduinooledqrcode\prediction.txt"
+# FILE_PATH = r"C:\AAYUSH\5_College\2024_25 FY CE D\FY sem 2\ASEP 2\Model making\Arduino\arduinooledqrcode\prediction.txt"
+FILE_PATH = r"C:\AAYUSH\5_College\2024_25 FY CE D\FY sem 2\ASEP 2\ASEP2-Sortify-Machine\Arduino - Hardware\prediction.txt"
 
 arduino = serial.Serial(port=COM_PORT, baudrate=BAUD_RATE, timeout=1)
 time.sleep(2)  # Allow Arduino to reset
